@@ -1,0 +1,479 @@
+[2022-04-14 11:16:40,775] {processor.py:163} INFO - Started process (PID=129) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:16:40,776] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:16:40,776] {logging_mixin.py:109} INFO - [2022-04-14 11:16:40,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:16:40,801] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:16:42,682] {logging_mixin.py:109} INFO - [2022-04-14 11:16:42,681] {manager.py:496} INFO - Created Permission View: can edit on DAG:template_task
+[2022-04-14 11:16:42,693] {logging_mixin.py:109} INFO - [2022-04-14 11:16:42,693] {manager.py:496} INFO - Created Permission View: can read on DAG:template_task
+[2022-04-14 11:16:42,694] {logging_mixin.py:109} INFO - [2022-04-14 11:16:42,694] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:16:42,702] {logging_mixin.py:109} INFO - [2022-04-14 11:16:42,702] {dag.py:2417} INFO - Creating ORM DAG for template_task
+[2022-04-14 11:16:42,714] {logging_mixin.py:109} INFO - [2022-04-14 11:16:42,714] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:16:42,728] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 1.955 seconds
+[2022-04-14 11:17:12,938] {processor.py:163} INFO - Started process (PID=163) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:12,939] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:17:12,939] {logging_mixin.py:109} INFO - [2022-04-14 11:17:12,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:12,963] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:12,993] {logging_mixin.py:109} INFO - [2022-04-14 11:17:12,993] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:17:13,006] {logging_mixin.py:109} INFO - [2022-04-14 11:17:13,006] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:17:13,018] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.082 seconds
+[2022-04-14 11:17:43,140] {processor.py:163} INFO - Started process (PID=195) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:43,141] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:17:43,141] {logging_mixin.py:109} INFO - [2022-04-14 11:17:43,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:43,165] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:17:43,196] {logging_mixin.py:109} INFO - [2022-04-14 11:17:43,196] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:17:43,211] {logging_mixin.py:109} INFO - [2022-04-14 11:17:43,211] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:17:43,221] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.083 seconds
+[2022-04-14 11:18:13,351] {processor.py:163} INFO - Started process (PID=217) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:13,355] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:18:13,356] {logging_mixin.py:109} INFO - [2022-04-14 11:18:13,356] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:13,389] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:13,422] {logging_mixin.py:109} INFO - [2022-04-14 11:18:13,422] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:18:13,436] {logging_mixin.py:109} INFO - [2022-04-14 11:18:13,436] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:18:13,445] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.096 seconds
+[2022-04-14 11:18:43,507] {processor.py:163} INFO - Started process (PID=248) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:43,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:18:43,508] {logging_mixin.py:109} INFO - [2022-04-14 11:18:43,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:43,531] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:18:43,561] {logging_mixin.py:109} INFO - [2022-04-14 11:18:43,561] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:18:43,574] {logging_mixin.py:109} INFO - [2022-04-14 11:18:43,574] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:18:43,587] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.082 seconds
+[2022-04-14 11:19:13,674] {processor.py:163} INFO - Started process (PID=280) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:13,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:19:13,679] {logging_mixin.py:109} INFO - [2022-04-14 11:19:13,679] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:13,706] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:13,742] {logging_mixin.py:109} INFO - [2022-04-14 11:19:13,742] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:19:13,757] {logging_mixin.py:109} INFO - [2022-04-14 11:19:13,757] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:19:13,770] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.098 seconds
+[2022-04-14 11:19:43,940] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:43,950] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:19:43,950] {logging_mixin.py:109} INFO - [2022-04-14 11:19:43,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:43,973] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:19:44,009] {logging_mixin.py:109} INFO - [2022-04-14 11:19:44,009] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:19:44,023] {logging_mixin.py:109} INFO - [2022-04-14 11:19:44,023] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:19:44,035] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.097 seconds
+[2022-04-14 11:21:14,462] {processor.py:163} INFO - Started process (PID=41) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:14,464] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:21:14,465] {logging_mixin.py:109} INFO - [2022-04-14 11:21:14,464] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:14,513] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:14,563] {logging_mixin.py:109} INFO - [2022-04-14 11:21:14,563] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:21:14,586] {logging_mixin.py:109} INFO - [2022-04-14 11:21:14,585] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:21:14,598] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.138 seconds
+[2022-04-14 11:21:44,654] {processor.py:163} INFO - Started process (PID=63) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:44,655] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:21:44,655] {logging_mixin.py:109} INFO - [2022-04-14 11:21:44,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:44,684] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:21:44,716] {logging_mixin.py:109} INFO - [2022-04-14 11:21:44,716] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:21:44,729] {logging_mixin.py:109} INFO - [2022-04-14 11:21:44,729] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:21:44,739] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.087 seconds
+[2022-04-14 11:22:48,824] {processor.py:163} INFO - Started process (PID=42) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:22:48,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:22:48,827] {logging_mixin.py:109} INFO - [2022-04-14 11:22:48,827] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:22:48,863] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:22:48,922] {logging_mixin.py:109} INFO - [2022-04-14 11:22:48,921] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:22:48,942] {logging_mixin.py:109} INFO - [2022-04-14 11:22:48,941] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:22:48,956] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.135 seconds
+[2022-04-14 11:23:19,016] {processor.py:163} INFO - Started process (PID=64) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:23:19,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:23:19,017] {logging_mixin.py:109} INFO - [2022-04-14 11:23:19,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:23:19,048] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:23:19,079] {logging_mixin.py:109} INFO - [2022-04-14 11:23:19,079] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:23:19,094] {logging_mixin.py:109} INFO - [2022-04-14 11:23:19,094] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:23:19,107] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.093 seconds
+[2022-04-14 11:24:50,702] {processor.py:163} INFO - Started process (PID=42) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:24:50,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:24:50,705] {logging_mixin.py:109} INFO - [2022-04-14 11:24:50,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:24:50,752] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:24:50,825] {logging_mixin.py:109} INFO - [2022-04-14 11:24:50,825] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:24:50,849] {logging_mixin.py:109} INFO - [2022-04-14 11:24:50,849] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:24:50,868] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.169 seconds
+[2022-04-14 11:25:20,900] {processor.py:163} INFO - Started process (PID=63) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:20,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:25:20,901] {logging_mixin.py:109} INFO - [2022-04-14 11:25:20,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:20,941] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:20,975] {logging_mixin.py:109} INFO - [2022-04-14 11:25:20,975] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:25:20,988] {logging_mixin.py:109} INFO - [2022-04-14 11:25:20,988] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:25:21,001] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.104 seconds
+[2022-04-14 11:25:51,169] {processor.py:163} INFO - Started process (PID=94) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:51,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:25:51,172] {logging_mixin.py:109} INFO - [2022-04-14 11:25:51,172] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:51,214] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:25:51,264] {logging_mixin.py:109} INFO - [2022-04-14 11:25:51,264] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:25:51,281] {logging_mixin.py:109} INFO - [2022-04-14 11:25:51,281] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:25:51,292] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.126 seconds
+[2022-04-14 11:26:21,348] {processor.py:163} INFO - Started process (PID=115) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:26:21,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:26:21,351] {logging_mixin.py:109} INFO - [2022-04-14 11:26:21,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:26:21,375] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:26:21,406] {logging_mixin.py:109} INFO - [2022-04-14 11:26:21,405] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:26:21,420] {logging_mixin.py:109} INFO - [2022-04-14 11:26:21,419] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:26:21,433] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.086 seconds
+[2022-04-14 11:27:27,947] {processor.py:163} INFO - Started process (PID=41) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:27,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:27:27,950] {logging_mixin.py:109} INFO - [2022-04-14 11:27:27,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:28,001] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:28,051] {logging_mixin.py:109} INFO - [2022-04-14 11:27:28,050] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:27:28,074] {logging_mixin.py:109} INFO - [2022-04-14 11:27:28,074] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:27:28,090] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.146 seconds
+[2022-04-14 11:27:58,163] {processor.py:163} INFO - Started process (PID=63) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:58,164] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:27:58,165] {logging_mixin.py:109} INFO - [2022-04-14 11:27:58,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:58,191] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:27:58,227] {logging_mixin.py:109} INFO - [2022-04-14 11:27:58,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:27:58,242] {logging_mixin.py:109} INFO - [2022-04-14 11:27:58,241] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:27:58,250] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.089 seconds
+[2022-04-14 11:28:28,367] {processor.py:163} INFO - Started process (PID=93) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:28,369] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:28:28,369] {logging_mixin.py:109} INFO - [2022-04-14 11:28:28,369] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:28,393] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:28,425] {logging_mixin.py:109} INFO - [2022-04-14 11:28:28,425] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:28:28,439] {logging_mixin.py:109} INFO - [2022-04-14 11:28:28,439] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:28:28,453] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.088 seconds
+[2022-04-14 11:28:58,571] {processor.py:163} INFO - Started process (PID=116) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:58,572] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:28:58,572] {logging_mixin.py:109} INFO - [2022-04-14 11:28:58,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:58,603] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:28:58,636] {logging_mixin.py:109} INFO - [2022-04-14 11:28:58,636] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:28:58,651] {logging_mixin.py:109} INFO - [2022-04-14 11:28:58,651] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:28:58,665] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.097 seconds
+[2022-04-14 11:29:28,770] {processor.py:163} INFO - Started process (PID=146) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:28,771] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:29:28,771] {logging_mixin.py:109} INFO - [2022-04-14 11:29:28,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:28,795] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:28,827] {logging_mixin.py:109} INFO - [2022-04-14 11:29:28,827] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:29:28,843] {logging_mixin.py:109} INFO - [2022-04-14 11:29:28,843] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:29:28,857] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.089 seconds
+[2022-04-14 11:29:58,978] {processor.py:163} INFO - Started process (PID=168) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:58,979] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:29:58,979] {logging_mixin.py:109} INFO - [2022-04-14 11:29:58,979] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:59,005] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:29:59,036] {logging_mixin.py:109} INFO - [2022-04-14 11:29:59,035] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:29:59,049] {logging_mixin.py:109} INFO - [2022-04-14 11:29:59,049] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:29:59,062] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.086 seconds
+[2022-04-14 11:30:29,180] {processor.py:163} INFO - Started process (PID=199) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:29,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:30:29,183] {logging_mixin.py:109} INFO - [2022-04-14 11:30:29,183] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:29,206] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:29,236] {logging_mixin.py:109} INFO - [2022-04-14 11:30:29,236] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:30:29,250] {logging_mixin.py:109} INFO - [2022-04-14 11:30:29,250] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:30:29,263] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.085 seconds
+[2022-04-14 11:30:59,377] {processor.py:163} INFO - Started process (PID=222) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:59,379] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:30:59,380] {logging_mixin.py:109} INFO - [2022-04-14 11:30:59,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:59,407] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:30:59,506] {logging_mixin.py:109} INFO - [2022-04-14 11:30:59,505] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:30:59,521] {logging_mixin.py:109} INFO - [2022-04-14 11:30:59,521] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:30:59,531] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.156 seconds
+[2022-04-14 11:31:29,583] {processor.py:163} INFO - Started process (PID=253) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:29,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:31:29,584] {logging_mixin.py:109} INFO - [2022-04-14 11:31:29,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:29,614] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:29,659] {logging_mixin.py:109} INFO - [2022-04-14 11:31:29,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:31:29,672] {logging_mixin.py:109} INFO - [2022-04-14 11:31:29,672] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:31:29,681] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.101 seconds
+[2022-04-14 11:31:59,828] {processor.py:163} INFO - Started process (PID=275) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:59,829] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:31:59,830] {logging_mixin.py:109} INFO - [2022-04-14 11:31:59,830] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:59,853] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:31:59,885] {logging_mixin.py:109} INFO - [2022-04-14 11:31:59,884] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:31:59,897] {logging_mixin.py:109} INFO - [2022-04-14 11:31:59,897] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:31:59,910] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.084 seconds
+[2022-04-14 11:32:30,027] {processor.py:163} INFO - Started process (PID=307) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:32:30,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:32:30,028] {logging_mixin.py:109} INFO - [2022-04-14 11:32:30,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:32:30,053] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:32:30,084] {logging_mixin.py:109} INFO - [2022-04-14 11:32:30,084] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:32:30,099] {logging_mixin.py:109} INFO - [2022-04-14 11:32:30,098] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:32:30,110] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.085 seconds
+[2022-04-14 11:33:00,236] {processor.py:163} INFO - Started process (PID=329) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:00,237] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:33:00,238] {logging_mixin.py:109} INFO - [2022-04-14 11:33:00,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:00,263] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:00,294] {logging_mixin.py:109} INFO - [2022-04-14 11:33:00,294] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:33:00,308] {logging_mixin.py:109} INFO - [2022-04-14 11:33:00,307] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:33:00,321] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.087 seconds
+[2022-04-14 11:33:30,442] {processor.py:163} INFO - Started process (PID=360) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:30,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:33:30,443] {logging_mixin.py:109} INFO - [2022-04-14 11:33:30,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:30,469] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:33:30,500] {logging_mixin.py:109} INFO - [2022-04-14 11:33:30,500] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:33:30,515] {logging_mixin.py:109} INFO - [2022-04-14 11:33:30,515] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:33:30,527] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.087 seconds
+[2022-04-14 11:34:00,636] {processor.py:163} INFO - Started process (PID=382) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:00,637] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:34:00,638] {logging_mixin.py:109} INFO - [2022-04-14 11:34:00,638] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:00,660] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:00,690] {logging_mixin.py:109} INFO - [2022-04-14 11:34:00,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:34:00,704] {logging_mixin.py:109} INFO - [2022-04-14 11:34:00,704] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:34:00,717] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.083 seconds
+[2022-04-14 11:34:30,837] {processor.py:163} INFO - Started process (PID=414) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:30,837] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:34:30,838] {logging_mixin.py:109} INFO - [2022-04-14 11:34:30,838] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:30,861] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:34:30,892] {logging_mixin.py:109} INFO - [2022-04-14 11:34:30,892] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:34:30,906] {logging_mixin.py:109} INFO - [2022-04-14 11:34:30,906] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:34:30,917] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.082 seconds
+[2022-04-14 11:35:01,037] {processor.py:163} INFO - Started process (PID=435) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:01,039] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:35:01,039] {logging_mixin.py:109} INFO - [2022-04-14 11:35:01,039] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:01,064] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:01,094] {logging_mixin.py:109} INFO - [2022-04-14 11:35:01,094] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:35:01,107] {logging_mixin.py:109} INFO - [2022-04-14 11:35:01,107] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:35:01,120] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.084 seconds
+[2022-04-14 11:35:31,235] {processor.py:163} INFO - Started process (PID=467) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:31,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:35:31,236] {logging_mixin.py:109} INFO - [2022-04-14 11:35:31,236] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:31,259] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:35:31,289] {logging_mixin.py:109} INFO - [2022-04-14 11:35:31,288] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:35:31,303] {logging_mixin.py:109} INFO - [2022-04-14 11:35:31,303] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:35:31,316] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.083 seconds
+[2022-04-14 11:36:01,496] {processor.py:163} INFO - Started process (PID=498) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:01,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:36:01,498] {logging_mixin.py:109} INFO - [2022-04-14 11:36:01,498] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:01,528] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:01,561] {logging_mixin.py:109} INFO - [2022-04-14 11:36:01,561] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:36:01,575] {logging_mixin.py:109} INFO - [2022-04-14 11:36:01,575] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:36:01,585] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.091 seconds
+[2022-04-14 11:36:31,635] {processor.py:163} INFO - Started process (PID=534) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:31,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:36:31,636] {logging_mixin.py:109} INFO - [2022-04-14 11:36:31,636] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:31,661] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:36:31,696] {logging_mixin.py:109} INFO - [2022-04-14 11:36:31,696] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:36:31,713] {logging_mixin.py:109} INFO - [2022-04-14 11:36:31,712] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:36:31,723] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.090 seconds
+[2022-04-14 11:37:01,839] {processor.py:163} INFO - Started process (PID=566) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:01,841] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:37:01,841] {logging_mixin.py:109} INFO - [2022-04-14 11:37:01,841] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:01,865] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:01,904] {logging_mixin.py:109} INFO - [2022-04-14 11:37:01,903] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:37:01,918] {logging_mixin.py:109} INFO - [2022-04-14 11:37:01,918] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:37:01,929] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.091 seconds
+[2022-04-14 11:37:32,094] {processor.py:163} INFO - Started process (PID=588) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:32,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:37:32,095] {logging_mixin.py:109} INFO - [2022-04-14 11:37:32,095] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:32,119] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:37:32,154] {logging_mixin.py:109} INFO - [2022-04-14 11:37:32,153] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:37:32,169] {logging_mixin.py:109} INFO - [2022-04-14 11:37:32,169] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:37:32,182] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.090 seconds
+[2022-04-14 11:38:02,359] {processor.py:163} INFO - Started process (PID=620) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:02,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:38:02,361] {logging_mixin.py:109} INFO - [2022-04-14 11:38:02,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:02,386] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:02,418] {logging_mixin.py:109} INFO - [2022-04-14 11:38:02,418] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:38:02,434] {logging_mixin.py:109} INFO - [2022-04-14 11:38:02,433] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:38:02,447] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.090 seconds
+[2022-04-14 11:38:32,605] {processor.py:163} INFO - Started process (PID=642) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:32,606] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:38:32,606] {logging_mixin.py:109} INFO - [2022-04-14 11:38:32,606] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:32,630] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:38:32,659] {logging_mixin.py:109} INFO - [2022-04-14 11:38:32,659] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:38:32,674] {logging_mixin.py:109} INFO - [2022-04-14 11:38:32,674] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:38:32,684] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.080 seconds
+[2022-04-14 11:39:02,849] {processor.py:163} INFO - Started process (PID=675) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:02,851] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:39:02,851] {logging_mixin.py:109} INFO - [2022-04-14 11:39:02,851] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:02,876] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:02,911] {logging_mixin.py:109} INFO - [2022-04-14 11:39:02,911] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:39:02,994] {logging_mixin.py:109} INFO - [2022-04-14 11:39:02,994] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:39:03,007] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.160 seconds
+[2022-04-14 11:39:34,028] {processor.py:163} INFO - Started process (PID=698) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:34,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:39:34,029] {logging_mixin.py:109} INFO - [2022-04-14 11:39:34,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:34,053] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:39:34,082] {logging_mixin.py:109} INFO - [2022-04-14 11:39:34,082] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:39:34,163] {logging_mixin.py:109} INFO - [2022-04-14 11:39:34,162] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:39:34,172] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.146 seconds
+[2022-04-14 11:40:04,247] {processor.py:163} INFO - Started process (PID=730) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:04,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:40:04,253] {logging_mixin.py:109} INFO - [2022-04-14 11:40:04,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:04,276] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:04,382] {logging_mixin.py:109} INFO - [2022-04-14 11:40:04,382] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:40:04,394] {logging_mixin.py:109} INFO - [2022-04-14 11:40:04,394] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:40:04,403] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.157 seconds
+[2022-04-14 11:40:34,470] {processor.py:163} INFO - Started process (PID=754) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:34,471] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:40:34,472] {logging_mixin.py:109} INFO - [2022-04-14 11:40:34,472] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:34,503] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:40:34,628] {logging_mixin.py:109} INFO - [2022-04-14 11:40:34,628] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:40:34,640] {logging_mixin.py:109} INFO - [2022-04-14 11:40:34,640] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:40:34,654] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.188 seconds
+[2022-04-14 11:41:05,636] {processor.py:163} INFO - Started process (PID=785) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:05,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:41:05,642] {logging_mixin.py:109} INFO - [2022-04-14 11:41:05,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:05,664] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:05,763] {logging_mixin.py:109} INFO - [2022-04-14 11:41:05,762] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:41:05,776] {logging_mixin.py:109} INFO - [2022-04-14 11:41:05,776] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:41:05,789] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.155 seconds
+[2022-04-14 11:41:35,884] {processor.py:163} INFO - Started process (PID=817) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:35,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:41:35,886] {logging_mixin.py:109} INFO - [2022-04-14 11:41:35,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:36,000] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:41:36,033] {logging_mixin.py:109} INFO - [2022-04-14 11:41:36,032] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:41:36,047] {logging_mixin.py:109} INFO - [2022-04-14 11:41:36,047] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:41:36,063] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.181 seconds
+[2022-04-14 11:42:06,088] {processor.py:163} INFO - Started process (PID=840) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:06,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:42:06,098] {logging_mixin.py:109} INFO - [2022-04-14 11:42:06,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:06,192] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:06,224] {logging_mixin.py:109} INFO - [2022-04-14 11:42:06,224] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:42:06,238] {logging_mixin.py:109} INFO - [2022-04-14 11:42:06,238] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:42:06,250] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.163 seconds
+[2022-04-14 11:42:36,314] {processor.py:163} INFO - Started process (PID=871) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:36,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:42:36,315] {logging_mixin.py:109} INFO - [2022-04-14 11:42:36,315] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:36,438] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:42:36,474] {logging_mixin.py:109} INFO - [2022-04-14 11:42:36,474] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:42:36,487] {logging_mixin.py:109} INFO - [2022-04-14 11:42:36,487] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:42:36,497] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.185 seconds
+[2022-04-14 11:43:06,606] {processor.py:163} INFO - Started process (PID=893) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:06,611] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:43:06,611] {logging_mixin.py:109} INFO - [2022-04-14 11:43:06,611] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:06,708] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:06,738] {logging_mixin.py:109} INFO - [2022-04-14 11:43:06,738] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:43:06,752] {logging_mixin.py:109} INFO - [2022-04-14 11:43:06,752] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:43:06,764] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.160 seconds
+[2022-04-14 11:43:37,120] {processor.py:163} INFO - Started process (PID=926) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:37,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:43:37,121] {logging_mixin.py:109} INFO - [2022-04-14 11:43:37,121] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:37,233] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:43:37,267] {logging_mixin.py:109} INFO - [2022-04-14 11:43:37,267] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:43:37,283] {logging_mixin.py:109} INFO - [2022-04-14 11:43:37,283] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:43:37,298] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.180 seconds
+[2022-04-14 11:44:07,451] {processor.py:163} INFO - Started process (PID=948) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:07,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:44:07,456] {logging_mixin.py:109} INFO - [2022-04-14 11:44:07,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:07,563] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:07,594] {logging_mixin.py:109} INFO - [2022-04-14 11:44:07,594] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:44:07,607] {logging_mixin.py:109} INFO - [2022-04-14 11:44:07,607] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:44:07,616] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.168 seconds
+[2022-04-14 11:44:37,891] {processor.py:163} INFO - Started process (PID=981) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:37,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:44:37,893] {logging_mixin.py:109} INFO - [2022-04-14 11:44:37,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:38,012] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:44:38,046] {logging_mixin.py:109} INFO - [2022-04-14 11:44:38,046] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:44:38,060] {logging_mixin.py:109} INFO - [2022-04-14 11:44:38,059] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:44:38,071] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.182 seconds
+[2022-04-14 11:45:08,129] {processor.py:163} INFO - Started process (PID=1004) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:08,130] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:45:08,130] {logging_mixin.py:109} INFO - [2022-04-14 11:45:08,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:08,227] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:08,256] {logging_mixin.py:109} INFO - [2022-04-14 11:45:08,256] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:45:08,268] {logging_mixin.py:109} INFO - [2022-04-14 11:45:08,268] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:45:08,280] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.153 seconds
+[2022-04-14 11:45:38,436] {processor.py:163} INFO - Started process (PID=1036) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:38,437] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:45:38,437] {logging_mixin.py:109} INFO - [2022-04-14 11:45:38,437] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:38,531] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:45:38,562] {logging_mixin.py:109} INFO - [2022-04-14 11:45:38,562] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:45:38,579] {logging_mixin.py:109} INFO - [2022-04-14 11:45:38,579] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:45:38,587] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.153 seconds
+[2022-04-14 11:46:08,851] {processor.py:163} INFO - Started process (PID=1060) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:08,852] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:46:08,853] {logging_mixin.py:109} INFO - [2022-04-14 11:46:08,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:08,954] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:08,986] {logging_mixin.py:109} INFO - [2022-04-14 11:46:08,986] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:46:08,999] {logging_mixin.py:109} INFO - [2022-04-14 11:46:08,999] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:46:09,009] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.161 seconds
+[2022-04-14 11:46:39,252] {processor.py:163} INFO - Started process (PID=1092) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:39,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:46:39,253] {logging_mixin.py:109} INFO - [2022-04-14 11:46:39,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:39,281] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:46:39,315] {logging_mixin.py:109} INFO - [2022-04-14 11:46:39,315] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:46:39,330] {logging_mixin.py:109} INFO - [2022-04-14 11:46:39,329] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:46:39,343] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.093 seconds
+[2022-04-14 11:47:09,515] {processor.py:163} INFO - Started process (PID=1116) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:09,520] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:47:09,521] {logging_mixin.py:109} INFO - [2022-04-14 11:47:09,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:09,546] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:09,580] {logging_mixin.py:109} INFO - [2022-04-14 11:47:09,580] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:47:09,597] {logging_mixin.py:109} INFO - [2022-04-14 11:47:09,597] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:47:09,611] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.098 seconds
+[2022-04-14 11:47:39,720] {processor.py:163} INFO - Started process (PID=1150) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:39,720] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:47:39,721] {logging_mixin.py:109} INFO - [2022-04-14 11:47:39,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:39,745] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:47:39,776] {logging_mixin.py:109} INFO - [2022-04-14 11:47:39,776] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:47:39,789] {logging_mixin.py:109} INFO - [2022-04-14 11:47:39,789] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:47:39,800] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.083 seconds
+[2022-04-14 11:48:09,980] {processor.py:163} INFO - Started process (PID=1173) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:09,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:48:09,991] {logging_mixin.py:109} INFO - [2022-04-14 11:48:09,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:10,017] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:10,049] {logging_mixin.py:109} INFO - [2022-04-14 11:48:10,049] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:48:10,064] {logging_mixin.py:109} INFO - [2022-04-14 11:48:10,064] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:48:10,078] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.100 seconds
+[2022-04-14 11:48:40,262] {processor.py:163} INFO - Started process (PID=1206) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:40,263] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:48:40,263] {logging_mixin.py:109} INFO - [2022-04-14 11:48:40,263] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:40,287] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:48:40,319] {logging_mixin.py:109} INFO - [2022-04-14 11:48:40,319] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:48:40,334] {logging_mixin.py:109} INFO - [2022-04-14 11:48:40,334] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:48:40,347] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.087 seconds
+[2022-04-14 11:49:10,519] {processor.py:163} INFO - Started process (PID=1230) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:10,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:49:10,529] {logging_mixin.py:109} INFO - [2022-04-14 11:49:10,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:10,553] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:10,589] {logging_mixin.py:109} INFO - [2022-04-14 11:49:10,589] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:49:10,606] {logging_mixin.py:109} INFO - [2022-04-14 11:49:10,605] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:49:10,619] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.102 seconds
+[2022-04-14 11:49:40,693] {processor.py:163} INFO - Started process (PID=1263) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:40,694] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:49:40,694] {logging_mixin.py:109} INFO - [2022-04-14 11:49:40,694] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:40,720] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:49:40,755] {logging_mixin.py:109} INFO - [2022-04-14 11:49:40,755] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:49:40,771] {logging_mixin.py:109} INFO - [2022-04-14 11:49:40,770] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:49:40,782] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.091 seconds
+[2022-04-14 11:50:10,958] {processor.py:163} INFO - Started process (PID=1296) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:10,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:50:10,959] {logging_mixin.py:109} INFO - [2022-04-14 11:50:10,959] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:10,988] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:11,021] {logging_mixin.py:109} INFO - [2022-04-14 11:50:11,021] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:50:11,036] {logging_mixin.py:109} INFO - [2022-04-14 11:50:11,036] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:50:11,046] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.090 seconds
+[2022-04-14 11:50:41,210] {processor.py:163} INFO - Started process (PID=1319) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:41,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:50:41,211] {logging_mixin.py:109} INFO - [2022-04-14 11:50:41,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:41,235] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:50:41,266] {logging_mixin.py:109} INFO - [2022-04-14 11:50:41,266] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:50:41,281] {logging_mixin.py:109} INFO - [2022-04-14 11:50:41,280] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:50:41,294] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.087 seconds
+[2022-04-14 11:51:11,475] {processor.py:163} INFO - Started process (PID=1352) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:11,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:51:11,481] {logging_mixin.py:109} INFO - [2022-04-14 11:51:11,480] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:11,508] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:11,544] {logging_mixin.py:109} INFO - [2022-04-14 11:51:11,543] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:51:11,560] {logging_mixin.py:109} INFO - [2022-04-14 11:51:11,560] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:51:11,575] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.102 seconds
+[2022-04-14 11:51:41,635] {processor.py:163} INFO - Started process (PID=1374) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:41,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:51:41,637] {logging_mixin.py:109} INFO - [2022-04-14 11:51:41,637] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:41,662] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:51:41,698] {logging_mixin.py:109} INFO - [2022-04-14 11:51:41,698] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:51:41,718] {logging_mixin.py:109} INFO - [2022-04-14 11:51:41,717] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:51:41,733] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.100 seconds
+[2022-04-14 11:52:11,862] {processor.py:163} INFO - Started process (PID=1407) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:11,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:52:11,872] {logging_mixin.py:109} INFO - [2022-04-14 11:52:11,872] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:11,910] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:11,950] {logging_mixin.py:109} INFO - [2022-04-14 11:52:11,950] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:52:11,970] {logging_mixin.py:109} INFO - [2022-04-14 11:52:11,969] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:52:11,985] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.126 seconds
+[2022-04-14 11:52:42,171] {processor.py:163} INFO - Started process (PID=1431) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:42,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:52:42,172] {logging_mixin.py:109} INFO - [2022-04-14 11:52:42,172] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:42,196] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:52:42,227] {logging_mixin.py:109} INFO - [2022-04-14 11:52:42,227] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:52:42,241] {logging_mixin.py:109} INFO - [2022-04-14 11:52:42,241] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:52:42,251] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.081 seconds
+[2022-04-14 11:53:12,458] {processor.py:163} INFO - Started process (PID=1464) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:12,465] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:53:12,465] {logging_mixin.py:109} INFO - [2022-04-14 11:53:12,465] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:12,493] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:12,529] {logging_mixin.py:109} INFO - [2022-04-14 11:53:12,529] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:53:12,546] {logging_mixin.py:109} INFO - [2022-04-14 11:53:12,545] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:53:12,561] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.105 seconds
+[2022-04-14 11:53:42,745] {processor.py:163} INFO - Started process (PID=1487) to work on /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:42,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/template_task.py for tasks to queue
+[2022-04-14 11:53:42,746] {logging_mixin.py:109} INFO - [2022-04-14 11:53:42,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:42,770] {processor.py:652} INFO - DAG(s) dict_keys(['template_task']) retrieved from /opt/airflow/dags/template_task.py
+[2022-04-14 11:53:42,802] {logging_mixin.py:109} INFO - [2022-04-14 11:53:42,802] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:53:42,817] {logging_mixin.py:109} INFO - [2022-04-14 11:53:42,816] {dag.py:2937} INFO - Setting next_dagrun for template_task to None
+[2022-04-14 11:53:42,828] {processor.py:171} INFO - Processing /opt/airflow/dags/template_task.py took 0.086 seconds

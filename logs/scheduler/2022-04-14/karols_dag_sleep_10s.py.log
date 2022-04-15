@@ -1,0 +1,248 @@
+[2022-04-14 11:36:16,558] {processor.py:163} INFO - Started process (PID=510) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:16,559] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:36:16,559] {logging_mixin.py:109} INFO - [2022-04-14 11:36:16,559] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:16,569] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:20,459] {logging_mixin.py:109} INFO - [2022-04-14 11:36:20,459] {manager.py:496} INFO - Created Permission View: can edit on DAG:karols_dag_sleep_10s
+[2022-04-14 11:36:20,469] {logging_mixin.py:109} INFO - [2022-04-14 11:36:20,469] {manager.py:496} INFO - Created Permission View: can read on DAG:karols_dag_sleep_10s
+[2022-04-14 11:36:20,470] {logging_mixin.py:109} INFO - [2022-04-14 11:36:20,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:36:20,476] {logging_mixin.py:109} INFO - [2022-04-14 11:36:20,476] {dag.py:2417} INFO - Creating ORM DAG for karols_dag_sleep_10s
+[2022-04-14 11:36:20,485] {logging_mixin.py:109} INFO - [2022-04-14 11:36:20,485] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:36:20,496] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 3.939 seconds
+[2022-04-14 11:36:50,702] {processor.py:163} INFO - Started process (PID=553) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:50,703] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:36:50,704] {logging_mixin.py:109} INFO - [2022-04-14 11:36:50,704] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:50,714] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:36:50,730] {logging_mixin.py:109} INFO - [2022-04-14 11:36:50,730] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:36:50,745] {logging_mixin.py:109} INFO - [2022-04-14 11:36:50,745] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:36:50,756] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:37:20,923] {processor.py:163} INFO - Started process (PID=576) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:20,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:37:20,925] {logging_mixin.py:109} INFO - [2022-04-14 11:37:20,925] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:20,938] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:20,955] {logging_mixin.py:109} INFO - [2022-04-14 11:37:20,955] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:37:20,972] {logging_mixin.py:109} INFO - [2022-04-14 11:37:20,972] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:37:20,982] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.061 seconds
+[2022-04-14 11:37:51,174] {processor.py:163} INFO - Started process (PID=608) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:51,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:37:51,175] {logging_mixin.py:109} INFO - [2022-04-14 11:37:51,175] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:51,186] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:37:51,202] {logging_mixin.py:109} INFO - [2022-04-14 11:37:51,202] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:37:51,217] {logging_mixin.py:109} INFO - [2022-04-14 11:37:51,217] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:37:51,227] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:38:21,441] {processor.py:163} INFO - Started process (PID=630) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:21,446] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:38:21,447] {logging_mixin.py:109} INFO - [2022-04-14 11:38:21,446] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:21,458] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:21,475] {logging_mixin.py:109} INFO - [2022-04-14 11:38:21,475] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:38:21,491] {logging_mixin.py:109} INFO - [2022-04-14 11:38:21,491] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:38:21,502] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.062 seconds
+[2022-04-14 11:38:51,689] {processor.py:163} INFO - Started process (PID=662) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:51,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:38:51,690] {logging_mixin.py:109} INFO - [2022-04-14 11:38:51,690] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:51,700] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:38:51,716] {logging_mixin.py:109} INFO - [2022-04-14 11:38:51,716] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:38:51,732] {logging_mixin.py:109} INFO - [2022-04-14 11:38:51,732] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:38:51,742] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.055 seconds
+[2022-04-14 11:39:21,928] {processor.py:163} INFO - Started process (PID=686) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:21,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:39:21,932] {logging_mixin.py:109} INFO - [2022-04-14 11:39:21,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:21,941] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:21,956] {logging_mixin.py:109} INFO - [2022-04-14 11:39:21,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:39:21,970] {logging_mixin.py:109} INFO - [2022-04-14 11:39:21,970] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:39:21,984] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.058 seconds
+[2022-04-14 11:39:52,111] {processor.py:163} INFO - Started process (PID=718) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:52,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:39:52,112] {logging_mixin.py:109} INFO - [2022-04-14 11:39:52,112] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:52,122] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:39:52,138] {logging_mixin.py:109} INFO - [2022-04-14 11:39:52,138] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:39:52,153] {logging_mixin.py:109} INFO - [2022-04-14 11:39:52,153] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:39:52,162] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.053 seconds
+[2022-04-14 11:40:22,318] {processor.py:163} INFO - Started process (PID=741) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:22,320] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:40:22,320] {logging_mixin.py:109} INFO - [2022-04-14 11:40:22,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:22,330] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:22,347] {logging_mixin.py:109} INFO - [2022-04-14 11:40:22,347] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:40:22,364] {logging_mixin.py:109} INFO - [2022-04-14 11:40:22,364] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:40:22,374] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.058 seconds
+[2022-04-14 11:40:52,537] {processor.py:163} INFO - Started process (PID=773) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:52,538] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:40:52,539] {logging_mixin.py:109} INFO - [2022-04-14 11:40:52,539] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:52,548] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:40:52,565] {logging_mixin.py:109} INFO - [2022-04-14 11:40:52,564] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:40:52,582] {logging_mixin.py:109} INFO - [2022-04-14 11:40:52,582] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:40:52,591] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:41:22,727] {processor.py:163} INFO - Started process (PID=796) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:22,736] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:41:22,736] {logging_mixin.py:109} INFO - [2022-04-14 11:41:22,736] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:22,746] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:22,761] {logging_mixin.py:109} INFO - [2022-04-14 11:41:22,761] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:41:22,776] {logging_mixin.py:109} INFO - [2022-04-14 11:41:22,776] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:41:22,785] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.060 seconds
+[2022-04-14 11:41:52,951] {processor.py:163} INFO - Started process (PID=827) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:52,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:41:52,953] {logging_mixin.py:109} INFO - [2022-04-14 11:41:52,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:52,962] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:41:52,979] {logging_mixin.py:109} INFO - [2022-04-14 11:41:52,979] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:41:52,994] {logging_mixin.py:109} INFO - [2022-04-14 11:41:52,994] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T10:00:00+00:00
+[2022-04-14 11:41:53,005] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:42:23,155] {processor.py:163} INFO - Started process (PID=850) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:23,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:42:23,157] {logging_mixin.py:109} INFO - [2022-04-14 11:42:23,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:23,167] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:23,184] {logging_mixin.py:109} INFO - [2022-04-14 11:42:23,184] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:42:23,201] {logging_mixin.py:109} INFO - [2022-04-14 11:42:23,201] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:42:23,210] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.058 seconds
+[2022-04-14 11:42:53,387] {processor.py:163} INFO - Started process (PID=881) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:53,387] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:42:53,388] {logging_mixin.py:109} INFO - [2022-04-14 11:42:53,388] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:53,398] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:42:53,413] {logging_mixin.py:109} INFO - [2022-04-14 11:42:53,413] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:42:53,497] {logging_mixin.py:109} INFO - [2022-04-14 11:42:53,497] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:42:53,510] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.125 seconds
+[2022-04-14 11:43:23,677] {processor.py:163} INFO - Started process (PID=904) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:23,686] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:43:23,686] {logging_mixin.py:109} INFO - [2022-04-14 11:43:23,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:23,698] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:23,716] {logging_mixin.py:109} INFO - [2022-04-14 11:43:23,716] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:43:23,805] {logging_mixin.py:109} INFO - [2022-04-14 11:43:23,805] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:43:23,821] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.146 seconds
+[2022-04-14 11:43:54,183] {processor.py:163} INFO - Started process (PID=936) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:54,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:43:54,184] {logging_mixin.py:109} INFO - [2022-04-14 11:43:54,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:54,195] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:43:54,212] {logging_mixin.py:109} INFO - [2022-04-14 11:43:54,212] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:43:54,296] {logging_mixin.py:109} INFO - [2022-04-14 11:43:54,296] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:43:54,308] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.127 seconds
+[2022-04-14 11:44:24,521] {processor.py:163} INFO - Started process (PID=968) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:24,522] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:44:24,522] {logging_mixin.py:109} INFO - [2022-04-14 11:44:24,522] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:24,532] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:24,620] {logging_mixin.py:109} INFO - [2022-04-14 11:44:24,620] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:44:24,637] {logging_mixin.py:109} INFO - [2022-04-14 11:44:24,637] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:44:24,650] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.131 seconds
+[2022-04-14 11:44:54,960] {processor.py:163} INFO - Started process (PID=991) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:54,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:44:54,961] {logging_mixin.py:109} INFO - [2022-04-14 11:44:54,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:55,046] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:44:55,060] {logging_mixin.py:109} INFO - [2022-04-14 11:44:55,060] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:44:55,075] {logging_mixin.py:109} INFO - [2022-04-14 11:44:55,075] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:44:55,084] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.126 seconds
+[2022-04-14 11:45:25,245] {processor.py:163} INFO - Started process (PID=1023) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:25,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:45:25,246] {logging_mixin.py:109} INFO - [2022-04-14 11:45:25,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:25,346] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:25,363] {logging_mixin.py:109} INFO - [2022-04-14 11:45:25,363] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:45:25,379] {logging_mixin.py:109} INFO - [2022-04-14 11:45:25,379] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:45:25,392] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.150 seconds
+[2022-04-14 11:45:55,620] {processor.py:163} INFO - Started process (PID=1046) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:55,625] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:45:55,625] {logging_mixin.py:109} INFO - [2022-04-14 11:45:55,625] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:55,706] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:45:55,721] {logging_mixin.py:109} INFO - [2022-04-14 11:45:55,721] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:45:55,736] {logging_mixin.py:109} INFO - [2022-04-14 11:45:55,736] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:45:55,750] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.131 seconds
+[2022-04-14 11:46:25,924] {processor.py:163} INFO - Started process (PID=1080) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:25,928] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:46:25,929] {logging_mixin.py:109} INFO - [2022-04-14 11:46:25,929] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:26,011] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:26,024] {logging_mixin.py:109} INFO - [2022-04-14 11:46:26,024] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:46:26,039] {logging_mixin.py:109} INFO - [2022-04-14 11:46:26,039] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:46:26,052] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.130 seconds
+[2022-04-14 11:46:56,319] {processor.py:163} INFO - Started process (PID=1103) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:56,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:46:56,324] {logging_mixin.py:109} INFO - [2022-04-14 11:46:56,324] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:56,335] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:46:56,355] {logging_mixin.py:109} INFO - [2022-04-14 11:46:56,355] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:46:56,376] {logging_mixin.py:109} INFO - [2022-04-14 11:46:56,376] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:46:56,387] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.070 seconds
+[2022-04-14 11:47:26,585] {processor.py:163} INFO - Started process (PID=1137) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:26,586] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:47:26,586] {logging_mixin.py:109} INFO - [2022-04-14 11:47:26,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:26,596] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:26,612] {logging_mixin.py:109} INFO - [2022-04-14 11:47:26,612] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:47:26,629] {logging_mixin.py:109} INFO - [2022-04-14 11:47:26,628] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:47:26,639] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:47:56,793] {processor.py:163} INFO - Started process (PID=1161) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:56,794] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:47:56,795] {logging_mixin.py:109} INFO - [2022-04-14 11:47:56,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:56,809] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:47:56,833] {logging_mixin.py:109} INFO - [2022-04-14 11:47:56,833] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:47:56,852] {logging_mixin.py:109} INFO - [2022-04-14 11:47:56,851] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:47:56,865] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.075 seconds
+[2022-04-14 11:48:27,055] {processor.py:163} INFO - Started process (PID=1194) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:27,055] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:48:27,056] {logging_mixin.py:109} INFO - [2022-04-14 11:48:27,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:27,066] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:27,085] {logging_mixin.py:109} INFO - [2022-04-14 11:48:27,085] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:48:27,101] {logging_mixin.py:109} INFO - [2022-04-14 11:48:27,101] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:48:27,113] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.061 seconds
+[2022-04-14 11:48:57,328] {processor.py:163} INFO - Started process (PID=1217) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:57,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:48:57,339] {logging_mixin.py:109} INFO - [2022-04-14 11:48:57,338] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:57,350] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:48:57,367] {logging_mixin.py:109} INFO - [2022-04-14 11:48:57,367] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:48:57,383] {logging_mixin.py:109} INFO - [2022-04-14 11:48:57,383] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:48:57,395] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.068 seconds
+[2022-04-14 11:49:27,594] {processor.py:163} INFO - Started process (PID=1250) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:27,595] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:49:27,595] {logging_mixin.py:109} INFO - [2022-04-14 11:49:27,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:27,606] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:27,622] {logging_mixin.py:109} INFO - [2022-04-14 11:49:27,622] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:49:27,639] {logging_mixin.py:109} INFO - [2022-04-14 11:49:27,639] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:49:27,648] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:49:57,792] {processor.py:163} INFO - Started process (PID=1273) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:57,794] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:49:57,795] {logging_mixin.py:109} INFO - [2022-04-14 11:49:57,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:57,806] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:49:57,823] {logging_mixin.py:109} INFO - [2022-04-14 11:49:57,823] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:49:57,839] {logging_mixin.py:109} INFO - [2022-04-14 11:49:57,839] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:49:57,851] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.061 seconds
+[2022-04-14 11:50:28,071] {processor.py:163} INFO - Started process (PID=1307) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:28,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:50:28,072] {logging_mixin.py:109} INFO - [2022-04-14 11:50:28,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:28,086] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:28,108] {logging_mixin.py:109} INFO - [2022-04-14 11:50:28,108] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:50:28,141] {logging_mixin.py:109} INFO - [2022-04-14 11:50:28,141] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:50:28,161] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.093 seconds
+[2022-04-14 11:50:58,275] {processor.py:163} INFO - Started process (PID=1330) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:58,284] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:50:58,285] {logging_mixin.py:109} INFO - [2022-04-14 11:50:58,285] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:58,307] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:50:58,323] {logging_mixin.py:109} INFO - [2022-04-14 11:50:58,323] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:50:58,340] {logging_mixin.py:109} INFO - [2022-04-14 11:50:58,340] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:50:58,349] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.076 seconds
+[2022-04-14 11:51:28,540] {processor.py:163} INFO - Started process (PID=1362) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:28,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:51:28,541] {logging_mixin.py:109} INFO - [2022-04-14 11:51:28,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:28,552] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:28,567] {logging_mixin.py:109} INFO - [2022-04-14 11:51:28,567] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:51:28,583] {logging_mixin.py:109} INFO - [2022-04-14 11:51:28,583] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:51:28,594] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.056 seconds
+[2022-04-14 11:51:58,744] {processor.py:163} INFO - Started process (PID=1394) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:58,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:51:58,746] {logging_mixin.py:109} INFO - [2022-04-14 11:51:58,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:58,757] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:51:58,778] {logging_mixin.py:109} INFO - [2022-04-14 11:51:58,778] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:51:58,798] {logging_mixin.py:109} INFO - [2022-04-14 11:51:58,798] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:51:58,809] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.067 seconds
+[2022-04-14 11:52:28,972] {processor.py:163} INFO - Started process (PID=1418) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:28,973] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:52:28,974] {logging_mixin.py:109} INFO - [2022-04-14 11:52:28,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:28,987] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:29,005] {logging_mixin.py:109} INFO - [2022-04-14 11:52:29,005] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:52:29,024] {logging_mixin.py:109} INFO - [2022-04-14 11:52:29,024] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:52:29,037] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.067 seconds
+[2022-04-14 11:52:59,245] {processor.py:163} INFO - Started process (PID=1451) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:59,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:52:59,249] {logging_mixin.py:109} INFO - [2022-04-14 11:52:59,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:59,261] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:52:59,279] {logging_mixin.py:109} INFO - [2022-04-14 11:52:59,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:52:59,298] {logging_mixin.py:109} INFO - [2022-04-14 11:52:59,298] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:52:59,309] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.067 seconds
+[2022-04-14 11:53:29,606] {processor.py:163} INFO - Started process (PID=1474) to work on /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:53:29,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/karols_dag_sleep_10s.py for tasks to queue
+[2022-04-14 11:53:29,607] {logging_mixin.py:109} INFO - [2022-04-14 11:53:29,607] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:53:29,618] {processor.py:652} INFO - DAG(s) dict_keys(['karols_dag_sleep_10s']) retrieved from /opt/airflow/dags/karols_dag_sleep_10s.py
+[2022-04-14 11:53:29,635] {logging_mixin.py:109} INFO - [2022-04-14 11:53:29,634] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-14 11:53:29,652] {logging_mixin.py:109} INFO - [2022-04-14 11:53:29,652] {dag.py:2937} INFO - Setting next_dagrun for karols_dag_sleep_10s to 2022-04-14T11:00:00+00:00
+[2022-04-14 11:53:29,662] {processor.py:171} INFO - Processing /opt/airflow/dags/karols_dag_sleep_10s.py took 0.058 seconds

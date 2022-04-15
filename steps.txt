@@ -1,0 +1,11 @@
+docker-compose up airflow-init
+docker-compose up -d
+./users.sh add KarolBakiera karol Karol Bakiera karol.bakiera@dsstream.com Viewer
+./grant_roles.sh add KarolBakiera Admin
+./grant_roles.sh remove KarolBakiera Viewer
+sudo cp ./karols_dag_sleep_10s.py ./dags/karols_dag_sleep_10s.py
+python3 rbac_roles_cli.py -u http://localhost:8080 -r rola_karola -d karols_dag_sleep_10s 
+./grant_roles.sh add KarolBakiera rola_karola
+./users.sh delete KarolBakiera
+
+

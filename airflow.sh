@@ -30,3 +30,6 @@ if [ $# -gt 0 ]; then
 else
     exec docker-compose run --rm airflow-cli
 fi
+
+
+docker cp 01280d071547:/opt/airflow/airflow.cfg /home/karolbakiera/github/airee_local/airflow.cfg

@@ -3,7 +3,7 @@ set -euo pipefail
 
 export COMPOSE_FILE="${PROJECT_DIR}/docker-compose.yaml"
 if [ $# -eq 1 ] && [ $1 != "check_id" ]; then
-    exec docker-compose run --rm airflow-cli airflow dags test $1 2020-01-01
+    exec docker-compose run --rm airflow-cli airflow dags test $1 $(date +'%Y-%m-%d')
 elif [ $# -eq 1 ] && [ $1 == "check_id" ]; then
     exec docker-compose run --rm airflow-cli airflow dags list
 else

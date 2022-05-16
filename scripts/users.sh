@@ -7,6 +7,6 @@ if [ $# -eq 7 ] && [ $1 == "add" ]; then
 elif [ $# -eq 2 ] && [ $1 == "delete" ]; then
     exec docker-compose run --rm airflow-cli airflow users delete --username $2
 else
-    echo "ADD => ./user.sh add userName password firstName lastName email role"
-    echo "DELETE => ./user.sh delete userName"
+    echo "ADD => ./users.sh add userName password firstName lastName email role"
+    echo "DELETE => ./users.sh delete userName"
 fi

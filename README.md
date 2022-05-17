@@ -21,15 +21,13 @@ cd scripts
 
 docker image ls
 ```
-4. Add priviliges to `dags`, `logs`,`plugins`
+4. Add priviliges to `dags`, `logs`
 ```
 sudo chmod -R 777 dags/
 sudo chmod -R 777 logs/
-sudo chmod -R 777 plugins/
 ```
 3. Go to the main directory with `docker-compose.yaml` and initialize the environment (database/default user/redis connection)
 ```
-cd ..
 docker-compose up airflow-init
 ```
 4. If initialization has passed correctly then build the Airee Local

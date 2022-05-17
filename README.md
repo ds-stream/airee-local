@@ -41,10 +41,4 @@ To manage the Airee Local instance use below scripts locates in the ![#c5f015](s
 * [users.sh](#)
 * [refresh.sh](#)
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+

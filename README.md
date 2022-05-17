@@ -47,7 +47,7 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 4e0e9c86c17e   redis:latest                       "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     6379/tcp                           airee_local_redis_1
 8a316e5cb580   postgres:13                        "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     5432/tcp                           airee_local_postgres_1
 ```
-6. Visit your web browser and navigate to locakhost:8080
+6. Visit your web browser and navigate to localhost:8080
 7. Voilà
 ## 4. How to use the project
 To manage the Airee Local instance use below scripts locates in the `scripts` folder

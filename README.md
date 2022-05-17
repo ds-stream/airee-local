@@ -80,7 +80,7 @@ cd scripts
 ./users.sh delete AirflowUser
 ```
 * `rbac_roles_cli.py` - Create a specific role suits to your needs
-#The default script allows you to create a role that uses only the specified dag names in the script input variables.
+The default script allows you to create a role that uses only the specified dag names in the script input variables.
 ```
 python3 rbac_roles_cli.py -u http://localhost:8080 -r your_role -d dag_connection_to_db 
 ```

@@ -1,6 +1,10 @@
-### Airee Local
+#### Airee Local
 ## 1.Project Description
 The Airee Local is an application for running dags locally. It enables efficient configuration of Airflow, quick creation of users and efficient management of their privileges.
+
+**The official documentation on which the script is based can be found here:**
+https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
+
 ## 2.Table of content
 * docker-compose.yaml (Script with services definition.)
 * app (The application directory with airflow configuration and requirements.)

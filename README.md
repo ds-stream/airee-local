@@ -48,6 +48,7 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 8a316e5cb580   postgres:13                        "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     5432/tcp                           airee_local_postgres_1
 ```
 6. Visit your web browser and navigate to localhost:8080
+
 7. Voilà
 ## 4. How to use the project
 * Adding DAGs

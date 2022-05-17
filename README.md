@@ -52,18 +52,33 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 ## 4. How to use the project
 To manage the Airee Local instance use below scripts locates in the `scripts` folder
 * build_image.sh - Build the Airflow image with requirements
-
+```
+cd scripts
+./build_image.sh
+```
 * delete.sh - Delete a dag from database, local repo and webserver UI
+
+
 
 * users.sh - Create or delete an user
 
+
+
 * rbac_roles_cli.py - Create a specific role suits to your needs
+
+
 
 * grant_roles.sh - Grant the role to the user
 
+
+
 * rebuilds.sh - Rebuild an image and redeploy the Airee Local
 
+
+
 * test_dag.sh - Test if dags works correctly
+
+
 
 * refresh.sh - TODO
 ```

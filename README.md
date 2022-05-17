@@ -32,13 +32,22 @@ docker ps -a
 7. Voilà
 ## 4. How to use the project
 To manage the Airee Local instance use below scripts locates in the `scripts` folder
-* [scripts/build_image.sh](#)
-* [delete.sh](#)
-* [grant_roles.sh](#)
-* [rbac_roles_cli.py](#)
-* [rebuilds.sh](#)
-* [test_dag.sh](#)
-* [users.sh](#)
-* [refresh.sh](#)
+* build_image.sh - Build the Airflow image with requirements
 
+* delete.sh - Delete a dag from database, local repo and webserver UI
+
+* users.sh - Create or delete an user
+
+* rbac_roles_cli.py - Create a specific role suits to your needs
+
+* grant_roles.sh - Grant the role to the user
+
+* rebuilds.sh - Rebuild an image and redeploy the Airee Local
+
+* test_dag.sh - Test if dags works correctly
+
+* refresh.sh - TODO
+```
+#TODO
+```
 

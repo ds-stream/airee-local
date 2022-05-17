@@ -2,3 +2,6 @@
 **/dags
 **/demo_dags
 logs/scheduler/latest
+dags/__pycache__/dag_sleep_10s.cpython-37.pyc
+dags/__pycache__/dag_connection_to_db.cpython-37.pyc
+dags/__pycache__/template_task.cpython-37.pyc

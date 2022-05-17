@@ -51,36 +51,73 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 7. Voilà
 ## 4. How to use the project
 To manage the Airee Local instance use below scripts locates in the `scripts` folder
-* build_image.sh - Build the Airflow image with requirements
+* `build_image.sh` - Build the Airflow image with requirements
 ```
 cd scripts
 ./build_image.sh
 ```
-* delete.sh - Delete a dag from database, local repo and webserver UI
+* `delete.sh` - Delete a dag from database, local repo and webserver UI
+```
+cd scripts
+./delete.sh <dag_name_in_local_dag_folder> <dag_id>
 
+#example
+#./delete.sh dag_sleep_10s dag_sleep_10s
+```
 
+* `users.sh` - Create or delete an user
+```
+cd scripts
 
-* users.sh - Create or delete an user
+#ADD
+./users.sh add <userName> <password> <firstName> <lastName> <email> <role>
+#example
+./users.sh add AirflowUser userpassword UserName UserSurname user1.usersurname@email.com Viewer
 
+#DELETE
+./users.sh delete <userName>
+#example
+./users.sh delete AirflowUser
+```
+* `rbac_roles_cli.py` - Create a specific role suits to your needs
+- The default script allows you to create a role that uses only the specified dag names in the script input variables.
+```
+python3 rbac_roles_cli.py -u http://localhost:8080 -r your_role -d dag_connection_to_db 
+```
+* `grant_roles.sh` - Grant the role to the user
+```
+cd scripts
 
+#ADD ROLE
+./grant_roles.sh add <userName> <roleName>
+#example
+./grant_roles.sh add AirflowUser Viewer
 
-* rbac_roles_cli.py - Create a specific role suits to your needs
+#REMOVE ROLE
+./grant_roles.sh remove <userName> <roleName>
+#example
+./grant_roles.sh remove AirflowUser Viewer
+```
+* `rebuilds.sh` - Rebuild an image and redeploy the Airee Local
+- If you want to add a new requerement, add it to the `app/requirements.txt` file and then run the command:
+```
+cd scripts
+./rebuilds.sh
+```
+* `test_dag.sh` - Test if dags works correctly
+```
+cd scripts
 
+#TEST
+./test_dag.sh <DAG_IG>
+#example
+./test_dag.sh dag_connection_to_db
 
+#CHECK_DAG_ID
+./test_dag.sh check_id
+```
 
-* grant_roles.sh - Grant the role to the user
-
-
-
-* rebuilds.sh - Rebuild an image and redeploy the Airee Local
-
-
-
-* test_dag.sh - Test if dags works correctly
-
-
-
-* refresh.sh - TODO
+* `refresh.sh` - TODO
 ```
 #TODO
 ```

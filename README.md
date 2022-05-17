@@ -100,7 +100,7 @@ cd scripts
 ```
 * `rebuilds.sh` - Rebuild an image and redeploy the Airee Local
 
-#If you want to add a new requerement, add it to the `app/requirements.txt` file and then run the command:
+    - If you want to add a new requerement, add it to the `app/requirements.txt` file and then run the command:
 ```
 cd scripts
 ./rebuilds.sh

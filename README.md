@@ -61,6 +61,7 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
     - You can add new environment variables in `airflow.env` file.
 
 **To manage the Airee Local instance use below scripts locates in the `scripts` folder**
+**Each script has help option by typinh `<script_name> -h`** 
 * `build_image.sh` - Build the Airflow image with requirements
 ```
 cd scripts

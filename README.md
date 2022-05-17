@@ -10,12 +10,12 @@ The Airee Local is an application for running dags locally. It enables efficient
 * Dockerfile (Dockerfile to build an Airflow image.)
 ## 3.How to install and run the project
 1. To run the Airee Local clone your repository to your local environment.
-2. Go to the ![#c5f015](scripts) `#c5f015` folder and run build_image.sh
+2. Go to the `scripts` folder and run build_image.sh
 ```
 cd scripts
 ./build_image.sh
 ```
-3. Go to the main directory with ![#f03c15](docker-compose.yaml)`#f03c15` and initialize the environment (database/default user/redis connection)
+3. Go to the main directory with `docker-compose.yaml` and initialize the environment (database/default user/redis connection)
 ```
 cd ..
 docker-compose.yaml up airflow-init
@@ -31,7 +31,7 @@ docker ps -a
 6. Visit your web browser and navigate to locakhost:8080
 7. Voilà
 ## 4. How to use the project
-To manage the Airee Local instance use below scripts locates in the ![#c5f015](scripts) `#c5f015` folder
+To manage the Airee Local instance use below scripts locates in the `scripts` folder
 * [build_image.sh](#)
 * [delete.sh](#)
 * [grant_roles.sh](#)

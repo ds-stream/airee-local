@@ -50,7 +50,12 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 6. Visit your web browser and navigate to localhost:8080
 7. Voilà
 ## 4. How to use the project
-To manage the Airee Local instance use below scripts locates in the `scripts` folder
+* Adding DAGs
+    - If you want to add the DAG put it on the `/dags` directory and wait ~15sec
+* Edit the Airee Local environment variables
+    - You can add new environment variables in `airflow.env` file.
+
+##To manage the Airee Local instance use below scripts locates in the `scripts` folder
 * `build_image.sh` - Build the Airflow image with requirements
 ```
 cd scripts

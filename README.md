@@ -32,7 +32,7 @@ docker ps -a
 7. Voilà
 ## 4. How to use the project
 To manage the Airee Local instance use below scripts locates in the `scripts` folder
-* [build_image.sh](#)
+* [scripts/build_image.sh](#)
 * [delete.sh](#)
 * [grant_roles.sh](#)
 * [rbac_roles_cli.py](#)

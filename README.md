@@ -41,4 +41,4 @@ To manage the Airee Local instance use below scripts locates in the ![#c5f015](s
 * [users.sh](#)
 * [refresh.sh](#)
 
-
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`

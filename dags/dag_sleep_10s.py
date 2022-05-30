@@ -16,7 +16,7 @@ default_args = {
 
 dag = DAG(
     dag_id='dag_sleep_10s',
-    schedule_interval=None,
+    schedule_interval="*/7 * * * *",
     default_args=default_args
 )
 

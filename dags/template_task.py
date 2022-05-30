@@ -16,7 +16,7 @@ default_args = {
 
 dag = DAG(
     dag_id='template_task',
-    schedule_interval=None,
+    schedule_interval="*/12 * * * *",
     default_args=default_args
 )
 

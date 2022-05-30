@@ -213,5 +213,45 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  statsd-exporter:
+       image: prom/statsd-exporter
+       container_name: airflow-statsd-exporter
+       volumes: 
+           - ./app/statsd.yaml:/home/statsd-mapping-configs.yaml
+       command: "--statsd.listen-udp=:8125 --web.listen-address=:9102 --log.level=debug --statsd.mapping-config=/home/statsd-mapping-configs.yaml"
+       ports:
+           - 9102:9102
+           - 8125:8125/udp
+
+  prometheus:
+       image: prom/prometheus
+       container_name: airflow-prometheus
+       user: "0"
+       volumes:
+           - ./prometheus/prometheus.yaml:/etc/prometheus/prometheus.yaml
+           - ./prometheus/volume:/prometheus
+       command:
+         - '--config.file=/etc/prometheus/prometheus.yaml'
+         - '--storage.tsdb.path=/prometheus'
+         - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+         - '--web.console.templates=/usr/share/prometheus/consoles'
+       ports:
+           - 9092:9090
+
+  grafana:
+       image: grafana/grafana:7.1.5
+       container_name: airflow-grafana
+       environment:
+           GF_SECURITY_ADMIN_USER: admin
+           GF_SECURITY_ADMIN_PASSWORD: password
+           GF_PATHS_PROVISIONING: /grafana/provisioning
+       ports:
+           - 3000:3000
+       volumes:
+           - ./grafana/volume/data:/grafana
+           - ./grafana/volume/datasources:/grafana/datasources
+           - ./grafana/volume/dashboards:/grafana/dashboards
+           - ./grafana/volume/provisioning:/grafana/provisioning
+
 volumes:
   postgres-db-volume:

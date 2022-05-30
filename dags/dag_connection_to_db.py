@@ -16,7 +16,7 @@ default_args = {
 
 dag = DAG(
     dag_id='dag_connection_to_db',
-    schedule_interval=None,
+    schedule_interval="*/5 * * * *",
     default_args=default_args
 )
 

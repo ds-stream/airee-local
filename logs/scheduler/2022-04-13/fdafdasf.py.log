@@ -1,7 +1,0 @@
-[2022-04-13 11:12:26,675] {processor.py:163} INFO - Started process (PID=2851) to work on /opt/airflow/dags/fdafdasf.py
-[2022-04-13 11:12:26,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/fdafdasf.py for tasks to queue
-[2022-04-13 11:12:26,677] {logging_mixin.py:109} INFO - [2022-04-13 11:12:26,677] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/fdafdasf.py
-[2022-04-13 11:12:26,728] {processor.py:652} INFO - DAG(s) dict_keys(['test_100_task_2']) retrieved from /opt/airflow/dags/fdafdasf.py
-[2022-04-13 11:12:27,085] {logging_mixin.py:109} INFO - [2022-04-13 11:12:27,084] {dag.py:2398} INFO - Sync 1 DAGs
-[2022-04-13 11:12:27,111] {logging_mixin.py:109} INFO - [2022-04-13 11:12:27,111] {dag.py:2937} INFO - Setting next_dagrun for test_100_task_2 to None
-[2022-04-13 11:12:27,140] {processor.py:171} INFO - Processing /opt/airflow/dags/fdafdasf.py took 0.467 seconds

@@ -11,13 +11,16 @@ def test(**context):
 default_args = {
     "owner": 'Airflow',
     "start_date": datetime(2021, 1, 1),
+    "retries": 2,
 }
 
 
 dag = DAG(
     dag_id='dag_sleep_10s',
     schedule_interval=None,
-    default_args=default_args
+    default_args=default_args,
+    tags=["sample"],
+    catchup=False,
 )
 
 

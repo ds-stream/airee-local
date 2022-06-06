@@ -1,0 +1,1 @@
+docker exec -ti airee_local-airflow-webserver-1 pytest tests/test_dag_integrity.py

@@ -1,8 +1,8 @@
 import time
 from datetime import datetime
 from airflow.models import DAG
-from airflow.operators.python_operator import PythonOperator
-
+from datetime import timedelta, datetime
+from airflow.contrib.operators.bigquery_operator import BigQueryGetDatasetTablesOperator
 
 def test(**context):
     time.sleep(10)
@@ -22,8 +22,6 @@ dag = DAG(
 
 
 with dag:
-    task = PythonOperator(
-        task_id="task",
-        python_callable=test,
-        provide_context=True
+    get_dataset_tables = BigQueryGetDatasetTablesOperator(
+        task_id="get_dataset_tables", dataset_id="common"
     )

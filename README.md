@@ -8,7 +8,7 @@ https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 ## 2.Table of content
 * docker-compose.yaml (Script with services definition.)
 * app (The application directory with airflow configuration and requirements.)
-* dags/plugins/logs (Directories mounted to the Airee Local.)
+* dags/plugins/logs/tests (Directories mounted to the Airee Local.)
 * scripts (Direcory with scripts for operating with the Airee Local.)
 * airflow.sh (Basic scritp to execute commands in the Airee Local.)
 * Dockerfile (Dockerfile to build an Airflow image.)
@@ -68,7 +68,7 @@ scripts/init_gcloud.sh
 
 **To manage the Airee Local instance use below scripts locates in the `scripts` folder**
 
-**In addition, the scripts `delete.sh`, `users.sh`, `rbac_roles_cli.py`, `grant_roles.sh`, `test_dag.sh`  has help option by typing `<script_name> -h`** 
+**In addition, the scripts `delete.sh`, `users.sh`, `rbac_roles_cli.py`, `grant_roles.sh`, `run_tests.sh`  has help option by typing `<script_name> -h`** 
 * `build_image.sh` - Build the Airflow image with requirements
 ```
 cd scripts
@@ -122,6 +122,21 @@ cd scripts
 ```
 cd scripts
 ./rebuilds.sh
+```
+* `run_tests.sh` - Perform pytest for DAGs, checks that:
+  * all tasks have required arguments
+  * DAG IDs are unique values across the project
+  * DAGs have no cycles
+  * there are no general import or syntax errors
+  * there is numer of retries for tasks set to minimum 2
+  * there are tags for DAGs  
+  
+  Definition of tests are available in tests/test_dag_integrity.py file
+  
+```
+cd scripts
+
+./run_tests.sh
 ```
 * `test_dag.sh` - Test if dags works correctly
 ```

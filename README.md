@@ -18,7 +18,7 @@ https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 ```
 cd scripts
 ./build_image.sh
-
+cd ..
 docker image ls
 ```
 4. Add priviliges to `dags`, `logs`
@@ -36,7 +36,7 @@ docker-compose up -d
 ```
 5. Wait for the containers (~60sec) and chcek if their status is healthy.
 ```
-docker ps -a
+docker ps
 ```
 - **The result should be as follows:**
 ```
@@ -48,10 +48,18 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 4f2f9771f70b   airflow-with-requirements:latest   "/bin/bash -c 'funct…"   53 seconds ago       Exited (0) 31 seconds ago                                      airee_local_airflow-init_1
 4e0e9c86c17e   redis:latest                       "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     6379/tcp                           airee_local_redis_1
 8a316e5cb580   postgres:13                        "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     5432/tcp                           airee_local_postgres_1
-```
-6. Visit your web browser and navigate to localhost:8080
 
-7. Voilà
+```
+6. Initialize GCP authentication.
+```
+scripts/init_gcloud.sh 
+```
+
+7. Setup **google_cloud_default** connection (https://airflow.apache.org/docs/apache-airflow-providers-google/stable/connections/gcp.html#configuring-the-connection)
+
+8. Visit your web browser and navigate to http://localhost:8080
+
+9. Voilà
 ## 4. How to use the project
 * Adding DAGs
     - If you want to add the DAG put it on the `/dags` directory and wait ~15sec

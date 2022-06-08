@@ -48,7 +48,7 @@ def create_rbac_role_with_permissions(
     }
 
     airflow_url += "/api/v1/roles"
-    response = requests.post(airflow_url, json=data, headers=headers, auth=('airflow', 'airflow'))
+    response = requests.post(airflow_url, json=data, headers=headers, auth=('bakiera', 'karol'))
 
     if response.status_code == 403:
         raise PermissionError(f"Error 403 returned, please check if your AirFlow account is Op/Admin or verify the dags exist. \n {response.json()}")

@@ -1,5 +1,4 @@
 logs/*
-!logs/.gitkeep 
-**/dags
+!logs/.gitkeep
 **/demo_dags
 *.pyc

@@ -28,7 +28,7 @@ sudo chmod -R 777 logs/
 ```
 3. Go to the main directory with `docker-compose.yaml` and initialize the environment (database/default user/redis connection)
 ```
-docker-compose up airflow-init
+docker-compose up airflow-db
 ```
 4. If initialization has passed correctly then build the Airee Local
 ```

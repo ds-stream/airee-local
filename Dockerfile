@@ -7,6 +7,7 @@ RUN pip install --upgrade pip
 RUN pip install -r ${AIRFLOW_HOME}/requirements.txt
 RUN pip install flask-bcrypt
 RUN pip install 'apache-airflow[password]'
+RUN pip install 'apache-airflow[gcp]'
 RUN pip3 install flask-bcrypt --user
 COPY --chown=airflow:root ./app/ ${AIRFLOW_HOME}
 

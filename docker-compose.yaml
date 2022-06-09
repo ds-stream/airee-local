@@ -2,7 +2,7 @@
 version: '3'
 x-airflow-common:
   &airflow-common
-  image: ${AIRFLOW_IMAGE_NAME:-airflow-with-requirements:latest}   
+  image: ${AIRFLOW_IMAGE_NAME:-airflow-with-req1:latest}
 
   env_file:
     - ./airflow.env
@@ -15,6 +15,7 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ./tests:/opt/airflow/tests
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on

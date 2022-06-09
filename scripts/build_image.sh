@@ -1,1 +1,1 @@
-docker build ../ -t airflow-with-requirements:latest
+docker build ../ -t airflow-with-req1:latest

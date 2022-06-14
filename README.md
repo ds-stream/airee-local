@@ -14,27 +14,29 @@ https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 * Dockerfile (Dockerfile to build an Airflow image.)
 ## 3.How to install and run the project
 1. To run the Airee Local clone your repository to your local environment.
-2. Go to the `scripts` folder and run build_image.sh
+
+2. Build Docker image.
 ```
-cd scripts
-./build_image.sh
-cd ..
-docker image ls
+./scripts/build_image.sh
 ```
-4. Add priviliges to `dags`, `logs`
+
+3. Add priviliges to `dags`, `logs`
 ```
 sudo chmod -R 777 dags/
 sudo chmod -R 777 logs/
 ```
-3. Go to the main directory with `docker-compose.yaml` and initialize the environment (database/default user/redis connection)
+
+4. Go to the main directory with `docker-compose.yaml` and initialize the environment (database/default user/redis connection)
 ```
 docker-compose up airflow-db
 ```
-4. If initialization has passed correctly then build the Airee Local
+
+5. If initialization has passed correctly then build the Airee Local
 ```
 docker-compose up -d
 ```
-5. Wait for the containers (~60sec) and chcek if their status is healthy.
+
+6. Wait for the containers (~60sec) and chcek if their status is healthy.
 ```
 docker ps
 ```
@@ -50,16 +52,21 @@ b8e161525537   airflow-with-requirements:latest   "/usr/bin/dumb-init …"   31 
 8a316e5cb580   postgres:13                        "docker-entrypoint.s…"   About a minute ago   Up 58 seconds (healthy)     5432/tcp                           airee_local_postgres_1
 
 ```
-6. Initialize GCP authentication.
+7. Add user (**replace** <YOUR_PASSWORD> with your own password).
 ```
-scripts/init_gcloud.sh 
+scripts/users.sh add admin <YOUR_PASSWORD> admin admin admin@admin.com Admin
 ```
 
-7. Setup **google_cloud_default** connection (https://airflow.apache.org/docs/apache-airflow-providers-google/stable/connections/gcp.html#configuring-the-connection)
+8. Initialize GCP authentication (you need to run this each time you want gcloud changes to be reflected in Airflow).
+```
+scripts/init_gcloud.sh
+```
 
-8. Visit your web browser and navigate to http://localhost:8080
+9. Setup **google_cloud_default** connection (https://airflow.apache.org/docs/apache-airflow-providers-google/stable/connections/gcp.html#configuring-the-connection) (only project_id is needed)
 
-9. Voilà
+10. Visit your web browser and navigate to http://localhost:8080 (login with username **admin** and your own password)
+
+11. Voilà (you can test GCP connectivity with **dag_test_gcp**)
 ## 4. How to use the project
 * Adding DAGs
     - If you want to add the DAG put it on the `/dags` directory and wait ~15sec
